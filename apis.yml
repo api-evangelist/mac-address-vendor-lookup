@@ -1,0 +1,32 @@
+aid: mac-address-vendor-lookup
+name: MAC address vendor lookup
+description: "Retrieve vendor details and other information regarding a given MAC address or an OUI"
+url: https://macaddress.io/api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Development"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Development
+  - Public APIs
+apis:
+  - name: MAC address vendor lookup
+    description: "Retrieve vendor details and other information regarding a given MAC address or an OUI"
+    humanURL: https://macaddress.io/api
+    baseURL: https://macaddress.io/api
+    tags:
+      - Development
+    properties:
+      - type: Documentation
+        url: https://macaddress.io/api
+common:
+  - type: Website
+    url: https://macaddress.io/api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
